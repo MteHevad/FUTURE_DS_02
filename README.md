@@ -1,12 +1,11 @@
 # 📊 Social Media Campaign Performance Tracker
-A complete marketing analytics project analyzing Facebook & Instagram campaign performance using Power BI.
+A complete marketing analytics project analyzing Facebook campaign performance using Power BI.
 
 ---
 
 ## 🚀 Project Overview
 This project evaluates the performance of a paid social media campaign using key marketing metrics such as:
 - Impressions  
-- Reach  
 - Clicks  
 - Spend  
 - CTR  
