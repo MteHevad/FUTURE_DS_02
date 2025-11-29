@@ -1,5 +1,5 @@
 # 📊 Power BI Dashboard Files  
-### Task 2 — Social Media Campaign Performance Tracker
+### Task 2 - Social Media Campaign Performance Tracker
 
 This folder contains all Power BI assets used to build and present the campaign performance analysis for the **facebook_ad_campaign** dataset.
 
