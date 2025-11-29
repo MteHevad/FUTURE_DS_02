@@ -1,0 +1,68 @@
+------------------------------
+DAX MEASURES FOR CAMPAIGN PERFORMANCE DASHBOARD
+------------------------------
+
+-- Total Impressions
+Total Impressions = SUM('Campaign'[impressions])
+
+-- Total Clicks
+Total Clicks = SUM('Campaign'[clicks])
+
+-- Total Spend
+Total Spend = SUM('Campaign'[spent])
+
+-- Total Conversions
+Total Conversions = SUM('Campaign'[total_conversion])
+
+-- Approved Conversions
+Approved Conversions = SUM('Campaign'[approved_conversion])
+
+-- Click-Through Rate (CTR)
+CTR = 
+DIVIDE(
+    [Total Clicks],
+    [Total Impressions]
+)
+
+-- Cost Per Click (CPC)
+CPC = 
+DIVIDE(
+    [Total Spend],
+    [Total Clicks]
+)
+
+-- Cost Per Thousand Impressions (CPM)
+CPM = 
+DIVIDE(
+    [Total Spend] * 1000,
+    [Total Impressions]
+)
+
+-- Conversion Rate (CVR)
+Conversion Rate =
+DIVIDE(
+    [Total Conversions],
+    [Total Clicks]
+)
+
+-- Approved Conversion Rate
+Approved Conversion Rate =
+DIVIDE(
+    [Approved Conversions],
+    [Total Clicks]
+)
+
+-- Spend Efficiency Score
+Spend Efficiency Score =
+DIVIDE(
+    [Total Conversions],
+    [Total Spend]
+)
+
+-- ROI (Estimated – requires conversion value if available)
+ROI =
+DIVIDE(
+    ([Total Conversions] * 1) - [Total Spend],   -- adjust multiplier if value per conversion known
+    [Total Spend]
+)
+
