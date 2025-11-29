@@ -1,0 +1,27 @@
+# Power BI auto-generated files
+*.pbip
+*.pbit
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary exports
+*.zip
+*.tmp
+*.bak
+
+# VS Code settings
+.vscode/
+
+# Python virtual environment (if added later)
+venv/
+env/
+
+# Logs
+*.log
+
+# Power BI cache folders
+*PerformanceData/
+*QueryCache/
