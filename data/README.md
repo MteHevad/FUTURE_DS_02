@@ -1,4 +1,4 @@
-# 📂 Data Folder — Task 2  
+# 📂 Data Folder - Task 2  
 ### Facebook Ad Campaign Dataset (Raw & Cleaned)
 
 This directory contains all datasets used for **Task 2: Social Media Campaign Performance Tracker** in the Data Science & Analytics Internship.
