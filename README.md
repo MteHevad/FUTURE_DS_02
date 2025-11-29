@@ -29,17 +29,23 @@ The final deliverable is an interactive Power BI dashboard enabling data-driven 
 facebook-ad-campaign-performance/
 │
 ├── data/
-│ └── facebook_ad_campaign.csv
-│
+│ └── facebook_ad_campaign_raw.csv
+│ └── facebook_ad_campaign_cleaned.csv
+│     
 ├── powerbi/
-│ └── campaign_dashboard.pbix
+│ └── Task_DS_02.pbix
+│ └── dax_measures.txt
 │
-├── reports/
+├── docs/
 │ ├── dashboard_screenshots/
 │ └── campaign_performance_summary.pdf
 │
-├── scripts/
-│ └── dax_measures.txt
+├── screenshots/
+│ ├── Bar Chart.png
+│ └── Column Chart.png
+│ └── Donut Chart.png
+│ └── Pie Chart.png
+│ └── Tree Map.png
 │
 ├── README.md
 │
